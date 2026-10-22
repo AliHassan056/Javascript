@@ -40,15 +40,19 @@ console.log(LoginUser('M.Shahbaz'))
 
 
 
+//This type of function can be called before the function definition
+addone(3) // No Error
 
 function addone(num){
     return num+1;
 }
 
+// addTwo(3) This will raise error
+
+// This type of function can't be called before the function definition
 const addTwo = function (num){
     return num+2
 }
 
 
-addone(3)
-addTwo(3)
+
