@@ -37,3 +37,18 @@ function LoginUser(name = 'Guest'){
 
 console.log(LoginUser())
 console.log(LoginUser('M.Shahbaz'))
+
+
+
+
+function addone(num){
+    return num+1;
+}
+
+const addTwo = function (num){
+    return num+2
+}
+
+
+addone(3)
+addTwo(3)
